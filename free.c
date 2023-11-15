@@ -24,4 +24,4 @@ int freeall(char **args)
 		free(args);
 	}
 	return (0);
-
+}
