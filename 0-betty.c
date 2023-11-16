@@ -13,4 +13,3 @@ int sum(void)
 	printf("%d\n", output);
 	return (output);
 }
-
