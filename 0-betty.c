@@ -1,11 +1,5 @@
 #include "main.h"
 
-int main(void)
-{
-	sum();
-	return 0;
-}
-
 /**
  * sum - function that sum two numbers
  *
