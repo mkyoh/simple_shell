@@ -3,15 +3,11 @@ This is the second Group project(Mesmak Habtewold, Zulyadaini Abdulrahman Hassan
 0.Write a beautiful code that passes the Betty checks
 1. Write a UNIX command line interpreter.
 2. Handle command lines with arguments
-3. Handle the PATH
-fork must not be called if the command doesn’t exist
+3. Handle the PATH fork must not be called if the command doesn’t exist
 4. Implement the exit built-in, that exits the shell
-Usage: exit
 You don’t have to handle any argument to the built-in exit
 5. Implement the env built-in, that prints the current environment
-6. Simple shell 0.1 +
-
-Write your own getline function
+6. Simple shell 0.1 + Write your own getline function
 Use a buffer to read many chars at once and call the least possible the read system call
 You will need to use static variables
 You are not allowed to use getline
@@ -30,9 +26,5 @@ You have to update the environment variable PWD when you change directory
 13. Simple shell 1.0 + Implement the alias builtin command
 14. Simple shell 1.0 + Implement the alias builtin command
 15. Simple shell 1.0 + Handle variables replacement
-Handle the $? variable
-Handle the $$ variable
 16. Simple shell 1.0 + Handle comments (#)
-17. Simple shell 1.0 +
-
-Usage: simple_shell [filename]
+17. Simple shell 1.0 + Usage: simple_shell [filename]
