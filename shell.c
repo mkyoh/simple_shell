@@ -2,11 +2,10 @@
 /**
  * main - Entry point
  * _child - function call
- * @args: fuction parameter
+ * @str: fuction parameter
  * Return: Always 0
  */
 char **init_arg(char *str);
-int _child(char **args);
 int main(void)
 {
 	int check;
@@ -70,7 +69,7 @@ int main(void)
 /**
  * init_arg - function that work non interactive
  * @str: pointer to the string
- * Return: args
+ * Return: integer number
  */
 char **init_arg(char *str)
 {
